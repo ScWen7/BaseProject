@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+
+    >
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/action_error"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Error"
+            app:showAsAction="always"
+            tools:ignore="AppCompatResource"></item>
+        <item
+            android:id="@+id/action_loading"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Loading"
+            app:showAsAction="ifRoom"
+            tools:ignore="AppCompatResource"></item>
+        <item
+            android:id="@+id/action_networkError"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="NetWorkError"
+            app:showAsAction="ifRoom"
+            tools:ignore="AppCompatResource"></item>
+        <item
+            android:id="@+id/action_emptyData"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Empty"
+            app:showAsAction="ifRoom"
+            ></item>
+        <item
+            android:id="@+id/action_content"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Content"
+            app:showAsAction="ifRoom"
+            ></item>
+    </group>
+
+
+
+</menu>
